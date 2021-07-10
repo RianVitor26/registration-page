@@ -25,6 +25,7 @@ h1{
     margin-bottom: 2rem;
     font-size: 2.5rem;
     color: rgb(108, 99, 255);
+    text-align: center;
 } 
 
 .images img{
@@ -90,7 +91,7 @@ input[type="submit"]:hover{
 
 section .images{
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 section.images .circle{
