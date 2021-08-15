@@ -5,17 +5,27 @@
     main{
         width: 100vw;
     }
+    h1{
+        margin-bottom: 40px;
+    }
+    input[type="submit"]{
+        margin-top: 2rem;
+    }
 }
 
 @media only screen and (max-width: 450px){
     h1{
-        font-size: 2rem;
+        font-size: 2.2rem;
+        color: white;
     }
     span{
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
     input{
         font-size: .8rem;
+    }
+    input[type="submit"]{
+        height: 40px;
     }
 }
 

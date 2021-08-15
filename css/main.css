@@ -4,10 +4,15 @@ main{
     justify-content: center;
 }
 
+h1{
+    margin-bottom: 2rem;
+}
+
 main .social-media img{
     width: 25px;
     margin-left: 2rem;
 }
+
 main .social-media p{
     color:white;
 }
@@ -21,13 +26,6 @@ main .social-media a:first-child img{
     margin-bottom: 1rem;
 }
 
-h1{
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-    color: rgb(108, 99, 255);
-    text-align: center;
-} 
-
 .images img{
     width: 80%;
 }
@@ -35,6 +33,7 @@ label,
 form{
     flex-direction: column;
 }
+
 label{
     align-items: flex-start !important;
 }
