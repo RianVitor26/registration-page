@@ -54,7 +54,6 @@ span{
     right: 50px;
 }
 
-
 .alternative span::after{
     left: 50px;
 }
